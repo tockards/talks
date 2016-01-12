@@ -36,7 +36,8 @@ def get_page(youtube_link):
 if __name__ == "__main__":
     if sys.argv[2] == 'md':
         t, pd = get_page(sys.argv[1])
+        print 
         print ("[{}]({})".format(t, sys.argv[1]))
-        print ("{}".format(pd))
+        print ("*{}*".format(pd))
 
 
